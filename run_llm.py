@@ -26,7 +26,7 @@ def conversation():
             break
 
         usr_promt_token_process_fr = tokenizer.encode(a, return_tensors="pt").to(device)
-        # # usr_promt_token_process_fr_ids=usr_promt_token_process_fr[' usr_promt_token_process_fr_ids'].to(device)
+        # # usr_promt_token_process_fr_ids=usr_promt_token_process_fr[' usr_promt_token_process_fr_ids'].to(device) # the commented lines are there if too many clashes happen with the Different tokens,,Use THem accordingly.
         # attention_mask=usr_promt_token_process_fr['attention_mask'].to(device)
         res = model.generate(
             usr_promt_token_process_fr, 
