@@ -17,7 +17,7 @@ dataset_training = TextDataset(
 
 tokenizer=tokenizer,
 file_path="./dataset.txt",
-block_size=16
+block_size=16 #change this as per your dataset
 
 )
 data_collator = DataCollatorForLanguageModeling(
