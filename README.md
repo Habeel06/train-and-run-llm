@@ -20,6 +20,20 @@ MAKE SURE THAT YOU HAVE THESE MODULES INSTALLED FIRST!
 
 3️⃣Run ```run_llm.py``` to run the llm and chat with it.
 
+
+## ℹ️ Info
+
+Also while training, cache file like ``cached_lm_GPT2Tokenizer_16_dataset.txt`` as uploaded above is created, do not edit or move it. Also you only need to download ``train_llm.py`` and ``run_llm.py`` files and make sure that you install dependencies."
+
+
+## 💡 Tips
+
+🟢Make sure your dataset organized, formatted with high quality data
+🟢If you are training on low end system like in my case,set epoc and save step values to low or if you have plenty of time you can mess aroun
+🟢Make sure your dataset isnt too small
+🟢If you get any kind of warning while running,dont panic just wait for the llms response,do not panic
+
+
  
 
 
